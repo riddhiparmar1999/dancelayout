@@ -1,0 +1,264 @@
+body{
+	font-family: 'Lora', serif;
+}
+.blackbox{
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.number-class{
+	font-size: 60px;
+	color: white;
+	padding-top: 20px; 
+}
+.text-class{
+	color: white;
+	padding-top: 42px;
+	font-size: 15px;
+}
+.heading{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.coach{
+	background-color: #F6F6F8;
+}
+.coach-name{
+	padding-top: 10px;
+}
+.coach-role{
+	color: #BABABC;
+	font-weight: bold; 
+}
+.coach-details{
+	padding-left: 20px;
+	border-left: 2px solid;
+	color: #9C98A1
+}
+.coach-button{
+	background-color: #F6F6F8;
+	border: 2px solid #999
+	font-variant: small-caps;
+	padding: 8px 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.coach-button:hover{
+	border-color: black;
+	color: #666
+}
+.events-date{
+	color: #9C98A1;
+	/*padding-left: 10px;*/
+}
+.events-detail{
+	padding-top: 18px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.event-btn{
+	background-color: #000;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.event-btn:hover{
+	color: #ccc;
+}
+.event-button{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.upcoming-events{
+	background-color: #F6F6F8;
+}
+.details{
+	color: #B0B4B7;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.lessons-content{
+	margin-left: 70px;
+	font-size: 18px;
+	border-left: solid 1px;
+	padding-left: 15px;
+	color: #9F9BA3
+	width: 60%;
+}
+.lessons-button{
+	margin-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: black;
+	color: white;
+}
+.lessons .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.lessons .col-xl-6{
+	padding-left: 0;
+	padding-right: 0;
+}
+.lessons-heading{
+	padding-left: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 50px;
+	font-weight: bold;
+}
+.lessons .col-xl-6 img{
+	min-height: 450px !important;
+}
+.lessons .col-xl-6 img{
+	height: 100%;
+	width: 100%;
+}
+.header{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #333;
+}
+.call_image, .call_content{
+	float: left;
+}
+.call_content{
+	color: #999
+	font-size: 22px;
+}
+.call_image{
+	width: 40px;
+	height: 40px;
+	padding-bottom: 20px;
+	background: url(images/sprite.png) -6px -128px
+}
+.call_image1{
+	background: url(images/sprite.png) -6px -53px
+}
+.group_head{
+	padding: 20px 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.group_content{
+	padding-left: 10px;
+	color: #999;
+	border-left: 1px solid #999
+}
+.group_bg{
+	width: 55px;
+	height: 80px;
+	margin-top: 30px;
+	background: url(images/sprite.png) 0 -170px
+}
+.group_bg1{
+	width: 55px;
+	height: 80px;
+	margin-top: 30px;
+	background: url(images/sprite.png) 0 -255px
+}
+.group_bg2{
+	width: 55px;
+	height: 80px;
+	margin-top: 30px;
+	background: url(images/sprite.png) 0 -340px
+}
+.group_dance{
+	background-color: #F6F6F8
+}
+.footer{
+	background-color: black;
+	padding-top: 20px;
+	color: white;
+}
+.footer_head{
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.footer_content a{
+	font-size: 12px;
+	padding-left: 20px;
+	margin-top: 15px;
+	color: #999;
+}
+.socials{
+	list-style-type: none;
+}
+.footer li{
+	color: #999;
+	margin-top: 10px;
+	font-size: 15px;
+}
+.footer li:hover{ 
+	color: white;
+}
+.Twitter-feed a{
+	color: #999;
+}
+.Twitter-feed:hover{
+	color: white;
+	text-decoration: underline;
+}
+.socials li a{
+	color: #999;
+}
+.recent_blog{
+	padding-left: 20px;
+	font-size: 13px;
+	color: #999;
+}
+.footer_img{
+	margin-top: 40px;
+}
+.recent_blog1{
+	margin-top: 60px;
+	padding-left: 20px;
+	font-size: 13px;
+	color: #999;
+}
+.recent_blog2{
+	margin-bottom: 30px;
+	padding-left: 20px;
+	font-size: 13px;
+	color: #999;
+}
+.google_map iframe{
+	width: 100%;
+}
+.main_div{
+	background-color: #fff;
+	font-size: 40px;
+}
+.testimonial{
+	background: rgba(0,0,0,0);
+	color: white;
+	background-image: url('images/testimonial.jpg');
+	/*background-repeat: repeat-x; to repeat the image in the background in x direction*/
+	/*background-repeat: repeat-y; to repeat the image in the background in y direction*/
+	/*background-repeat: repeat; to repeat the background in the whole screen*/
+	/*background-repeat: no-repeat;*/
+	background-position: -140px 20px;
+	/*to give position to the image in the background*/
+	/*background-position: center top;*/
+	background-attachment: fixed;
+	/*to fix the image in the background*/
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.rounded_image{
+	border-radius: 50% !important;
+}
+.slider_content{
+	font-size: 20px;
+	padding-top: 30px;
+}
+.testimonial .carousel-control-next:hover{
+	border: none;
+}
+.test_content{
+	font-size: 20px;
+}
